@@ -1,3 +1,3 @@
 cd ./code
-venv\Scripts\python ./main.py
+path\Scripts\python ./main.py
 pause
