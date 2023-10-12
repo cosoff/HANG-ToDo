@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            background-color: #fff;
+        }
+
+        .login-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .login-form {
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            background-color: transparent;
+            border: none;
+        }
+
+        .login-form h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .welcome-text {
+            font-size: 24px;
+            color: #333;
+            text-align: left;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .sub-welcome-text {
+            font-size: 10px;
+            color: #777;
+            text-align: left;
+            margin-bottom: 20px;
+            font-weight: 100;
+        }
+
+        .login-form label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        .login-form input {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: url('./账户.svg') no-repeat 10px center; /* Adjust this value based on your icon size */
+            background-size: 20px;
+            padding-left: 38px; /* Adjust this value based on your icon size + spacing */
+        }
+
+        .login-form input[type="password"] {
+            padding: 15px;
+            background: url('./密码.svg') no-repeat 10px center; /* Adjust this value based on your icon size */
+            background-size: 20px;
+            padding-left: 38px; /* Adjust this value based on your icon size + spacing */
+        }
+
+        .login-form .login-btn {
+            width: 100%;
+            padding: 15px;
+            background-color: #1990ff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        /* Add this style for hover effect */
+        .login-form .login-btn:hover {
+            background-color: #0c7bcd;
+        }
+
+        .weixin-btn {
+            width: 100%;
+            padding: 15px;
+            background-color: #fff;
+            color: #6a6968;
+            border: 1px solid #e0e1e6;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .weixin-btn:hover {
+            background-color: #ddd;
+        }
+
+        .weixin-icon {
+            padding: 1.5px;
+            display: inline-block;
+            width: 20px; /* Adjust the size of the Weixin icon */
+            height: 15px; /* Adjust the size of the Weixin icon */
+            margin-right: 5px;
+            background: url('./微信.svg') no-repeat center;
+            background-size: contain;
+        }
+
+        .additional-links {
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .additional-links a {
+            margin: 0 10px;
+            color: #1990ff;
+            text-decoration: none;
+        }
+
+        .additional-links a:hover {
+            text-decoration: underline;
+        }
+
+        .image-container {
+            flex: 1;
+            background-image: url('./109037924_p0_master1200.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 24px;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">HANG.ToDo</div>
+
+    <div class="login-container">
+        <div class="login-form">
+            <div class="welcome-text">Welcome to HANG.ToDo</div>
+            <div class="sub-welcome-text">欢迎来到 HANG.ToDo</div>
+            <form action="#">
+                <label for="username"></label>
+                <input type="text" id="username" name="username" placeholder="电子邮箱" required>
+
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="密码" required>
+
+                <button type="submit" class="login-btn">登录</button>
+
+                <button class="weixin-btn">
+                    <span class="weixin-icon"></span>
+                    微信登录
+                </button>
+
+                <div class="additional-links">
+                    <a href="register.html" style="float: left;">立即注册</a>
+                    <a href="login2.html" style="float: left;">手机登录</a>
+                    <a href="forget-password.html" style="float: right;">忘记密码?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <!-- You can optionally add content or remove this div entirely -->
+    </div>
+</body>
+</html>
