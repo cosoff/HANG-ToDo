@@ -57,8 +57,23 @@
                 code: code
             };
 
-            // Output the data in JSON format
-            console.log(JSON.stringify(data));
+                        // Perform an HTTP POST request
+                        fetch('http://127.0.0.1/registration-endpoint', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                // Handle the server response as needed
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+                // Handle errors
+            });
         }
     </script>
 </body>
