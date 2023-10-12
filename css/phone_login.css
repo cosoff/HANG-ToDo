@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.login-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.welcome-text {
+    font-size: 24px;
+    color: #333;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.sub-welcome-text {
+    font-size: 10px;
+    color: #777;
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: url('../svg/账户.svg') no-repeat 10px center;
+    background-size: 20px;
+    padding-left: 38px;
+}
+
+.login-form .code-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.login-form .code-input {
+    width: calc(70% - 5px);
+}
+
+.login-form .send-code-btn {
+    width: calc(30% - 5px);
+    padding: 15px;
+    background-color: #1990ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+.login-form .send-code-btn:hover {
+    background-color: #0c7bcd;
+}
+
+.login-form .login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #1990ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.login-form .login-btn:hover {
+    background-color: #0c7bcd;
+}
+
+.weixin-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+    color: #6a6968;
+    border: 1px solid #e0e1e6;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.weixin-btn:hover {
+    background-color: #ddd;
+}
+
+.weixin-icon {
+    padding: 1.5px;
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+    background: url('../svg/微信.svg') no-repeat center;
+    background-size: contain;
+}
+
+.additional-links {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.additional-links a {
+    margin: 0 10px;
+    color: #1990ff;
+    text-decoration: none;
+}
+
+.additional-links a:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    flex: 1;
+    background-image: url('../img/109037924_p0_master1200.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
