@@ -13,7 +13,7 @@
         <div class="login-form">
             <div class="welcome-text">手机登录</div>
             <div class="sub-welcome-text">欢迎来到 HANG.ToDo</div>
-            <form action="#">
+            <form id="loginForm" action="#">
                 <label for="username"></label>
                 <input type="text" id="username" name="username" placeholder="手机号" required>
 
@@ -22,7 +22,7 @@
                     <button type="button" class="send-code-btn" onclick="sendCode()">发送验证码</button>
                 </div>
 
-                <button type="submit" class="login-btn">登录</button>
+                <button type="button" class="login-btn" onclick="login()">登录</button>
 
                 <button class="weixin-btn">
                     <span class="weixin-icon"></span>
@@ -39,5 +39,27 @@
     <div class="image-container">
         <!-- You can optionally add content or remove this div entirely -->
     </div>
+
+    <script>
+        function sendCode() {
+            // Add logic to send verification code
+            console.log("Sending verification code...");
+        }
+
+        function login() {
+            // Get values from form
+            var username = document.getElementById("MP").value;
+            var code = document.getElementById("code").value;
+
+            // You can do something with the values, e.g., send them in JSON format
+            var data = {
+                username: username,
+                code: code
+            };
+
+            // Output the data in JSON format
+            console.log(JSON.stringify(data));
+        }
+    </script>
 </body>
 </html>
