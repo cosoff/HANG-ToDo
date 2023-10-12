@@ -5,7 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="css/login.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.querySelector('.login-form');
 
+            form.addEventListener('submit', function (event) {
+                event.preventDefault(); // 阻止默认的表单提交行为
+
+                var username = document.getElementById('username').value;
+                var password = document.getElementById('password').value;
+
+                var jsonData = {
+                    username: username,
+                    password: password
+                };
+
+                // 为了演示，将JSON数据记录到控制台
+                console.log(JSON.stringify(jsonData));
+
+                // 你可以使用AJAX将这个JSON数据发送到服务器，或执行其他想要的操作
+            });
+        });
+    </script>
 </head>
 <body>
     <div class="logo">HANG.ToDo</div>
@@ -31,14 +52,14 @@
                 <div class="additional-links">
                     <a href="register.html" style="float: left;">立即注册</a>
                     <a href="phone_login.html" style="float: left;">手机登录</a>
-                    <a href="forget-password.html" style="float: right;">忘记密码?</a>
+                    <a href="forget-password.html" style="float: right;">忘记密码？</a>
                 </div>
             </form>
         </div>
     </div>
 
     <div class="image-container">
-        <!-- You can optionally add content or remove this div entirely -->
+        <!-- 你可以选择性地添加或删除这个div -->
     </div>
 </body>
 </html>
