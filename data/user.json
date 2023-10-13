@@ -1,0 +1,14 @@
+{
+    "admin": {
+        "password": "admin123",
+        "id": 1,
+        "Name": "Admin",
+        "userType": 1
+    },
+    "hang": {
+        "password": "test",
+        "id": 2,
+        "Name": "hang",
+        "userType": 1
+    }
+}

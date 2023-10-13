@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Page</title>
+    <title>HANG.ToDo 注册账号</title>
     <link rel="stylesheet" href="css/register.css">
 </head>
 <body>
@@ -13,29 +13,23 @@
         <div class="registration-form">
             <div class="welcome-text">注册账号</div>
             <div class="sub-welcome-text">欢迎来到 HANG.ToDo</div>
-            <form id="registrationForm" action="#">
+
+            <div class="register">
                 <label for="phone"></label>
-                <input type="text" id="phone" name="email" placeholder="请输入手机号" required>
+                <input type="text" id="phone" name="email" placeholder="请输入账号" required>
 
                 <label for="password"></label>
                 <input type="password" id="password" name="password" placeholder="请输入8~16位包含数字和字母的组合" required>
+                <label for="password2"></label>
+                <input type="password" id="password2" name="password2" placeholder="请重复输入密码" required>
 
-                <div class="code-container">
-                    <label for="code">
-                    </label><input type="text" id="code" name="code" class="code-input" placeholder="请输入验证码" required>
-                    <button type="button" class="send-code-btn" onclick="sendCode()">发送验证码</button>
-                </div>
+                <button type="button" class="register-btn" id="register_btn">注册</button>
 
-                <div class="additional-links">
-                    <p>注册视为同意<a href="test.html">《HANG.AI服务协议》</a>和<a href="test.html">《隐私协议》</a></p>
-                </div>
-
-                <button type="button" class="register-btn" onclick="register()">注册</button>
-
+            </div>
                 <div class="additional-links">
                     <p class="left">已有账号?<a href="login.html">点击登录</a></p>
                 </div>
-            </form>
+
         </div>
     </div>
     </div>
