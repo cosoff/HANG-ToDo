@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207bb318-9b5f-4dc8-9e17-61cdf7fc4955" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/forget-password.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/forget-password.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/phone_login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/phone_login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/register.css" afterDir="false" />
-    </list>
+    <list default="true" id="207bb318-9b5f-4dc8-9e17-61cdf7fc4955" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697186877591</updated>
       <workItem from="1697186883448" duration="122000" />
-      <workItem from="1697187025101" duration="1596000" />
+      <workItem from="1697187025101" duration="2544000" />
     </task>
     <servers />
   </component>
