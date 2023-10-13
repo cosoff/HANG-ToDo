@@ -129,7 +129,7 @@ body {
     text-decoration: underline;
 }
 
-.image-container {
+.main {
     flex: 1;
     background-image: url('../img/109037924_p0_master1200.jpg');
     background-size: cover;
@@ -137,19 +137,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50px;
 }
 
-.image-container img {
+.box {
+    display: flex;
+    overflow: hidden;
+    width: 50rem;
+    height: 35rem;
+    background-color: rgba(255, 255,255,95%);
+    border-radius: 2rem;
+    margin: 2% auto;
+    box-shadow: 0 0 1rem 1rem rgb(0 0 0 / 10%);
+}
+
+.main img {
     max-width: 100%;
     height: auto;
 }
 
-.logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 24px;
-    color: #333;
-    font-weight: bold;
-}
