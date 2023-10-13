@@ -97,7 +97,7 @@ body {
     padding-left: 38px; /* Adjust this value based on your icon size + spacing */
 }
 
-.registration-form .register-btn {
+.registration-form .signup-btn {
     width: 100%;
     padding: 15px;
     background-color: #1990ff;
@@ -109,7 +109,7 @@ body {
     font-size: 18px;
 }
 
-.registration-form .register-btn:hover {
+.registration-form .signup-btn:hover {
     background-color: #0c7bcd;
 }
 
