@@ -139,7 +139,9 @@ body {
 
 .main {
     flex: 1;
-    background-image: url('../img/109037924_p0_master1200.jpg');
+    background: #70e1f5;
+    background: -webkit-linear-gradient(to right, rgb(112, 225, 245), rgb(255, 209, 148));
+    background: linear-gradient(to right, rgb(112, 225, 245), rgb(255, 209, 148));
     background-size: cover;
     background-position: center;
     display: flex;
@@ -152,7 +154,7 @@ body {
     overflow: hidden;
     width: 50rem;
     height: 35rem;
-    background-color: rgba(255, 255,255,95%);
+    background-color: rgba(255, 255,255,90%);
     border-radius: 2rem;
     margin: 2% auto;
     box-shadow: 0 0 1rem 1rem rgb(0 0 0 / 10%);

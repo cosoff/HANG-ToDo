@@ -5,27 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="207bb318-9b5f-4dc8-9e17-61cdf7fc4955" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HANG-ToDo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HANG-ToDo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/token.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/user.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/userAPI.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/forget-password.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/forget-password.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/phone_login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/phone_login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forget-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/forget-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/phone_login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/start.bat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,6 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -67,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697186877591</updated>
       <workItem from="1697186883448" duration="122000" />
-      <workItem from="1697187025101" duration="948000" />
+      <workItem from="1697187025101" duration="1596000" />
     </task>
     <servers />
   </component>
