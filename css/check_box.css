@@ -1,0 +1,49 @@
+/*侧边栏样式*/
+
+
+.checkbox {
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 5rem;
+    height: 25rem;
+    margin: auto auto auto 0.5rem;
+}
+
+/*侧边栏按钮*/
+.checkbox .check_btn {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 100%);
+    border: none;
+    cursor: pointer;
+    border-radius: 3rem;
+    margin: auto auto 15px 10px;
+    font-size: 0;
+}
+
+/*侧边栏悬停效果*/
+.checkbox:hover {
+    width: 15rem;
+}
+/*侧边栏按键悬停*/
+.check_btn:hover {
+    margin-left: 10px;
+    width: 10rem;
+    font-size: 1rem;
+}
+
+.info_icon {
+    padding: 2px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../svg/微信.svg') no-repeat center;
+    background-size: contain;
+}
+.check_btn:hover .info_icon {
+    display: none;
+}
