@@ -64,10 +64,9 @@ body {
 }
 
 .login-form input[type="password"] {
-    padding: 15px;
-    background: url('../svg/密码.svg') no-repeat 10px center; /* Adjust this value based on your icon size */
+    background: url('../svg/密码.svg') no-repeat 10px center;
     background-size: 20px;
-    padding-left: 38px; /* Adjust this value based on your icon size + spacing */
+    padding: 15px 15px 15px 38px;
 }
 
 .login-form .login-btn {
