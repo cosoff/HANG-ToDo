@@ -12,7 +12,7 @@
 <div class="main">
     <div class="box">
     <div class="login-container">
-        <div class="login-form">
+        <div class="login-form" id="login">
             <div class="welcome-text">Welcome to HANG.ToDo</div>
             <div class="sub-welcome-text">欢迎来到 HANG.ToDo</div>
 
@@ -30,10 +30,66 @@
                 微信登录
             </button>
             <div class="additional-links">
-                <a href="signup.html" style="float: left;">立即注册</a>
-                <a href="phone_login.html" style="float: left;">手机登录</a>
-                <a href="forget-password.html" style="float: right;">忘记密码？</a>
+                <button class="btn" style="float: left;" onclick="window.location.href='./signup.html'">
+                    立即注册
+                </button>
+                <button class="btn" style="float: left;margin-left: 1rem" onclick="redis('phone_login')">
+                    手机登录
+                </button>
+                <button class="btn" style="float: right;" onclick="redis('forget-password')">
+                    忘记密码？
+                </button>
             </div>
+        </div>
+        <div class="login-form" id="phone_login">
+            <div class="welcome-text">手机登录</div>
+            <div class="sub-welcome-text">欢迎来到 HANG.ToDo</div>
+            <div class="login" id="phone_login_box">
+                <label for="username"></label>
+                <label>
+                    <input type="text" name="phone" placeholder="手机号" required>
+                </label>
+                <div class="code-container">
+                    <input type="text" id="code" name="code" class="code-input" placeholder="请输入验证码" required>
+                    <button type="button" class="send-code-btn" onclick="sendCode()">发送验证码</button>
+                </div>
+            </div>
+            <button type="button" class="login-btn" onclick="login()">登录</button>
+
+            <button class="weixin-btn">
+                <span class="weixin-icon"></span>
+                微信登录
+            </button>
+
+            <div class="additional-links">
+                <button class="btn" style="float: left;" onclick="redis('login')">
+                    密码登录
+                </button>
+            </div>
+        </div>
+        <div class="login-form" id="forget-password">
+            <div class="welcome-text">找回密码</div>
+            <div class="sub-welcome-text">欢迎来到 HANG.ToDo</div>
+            <form id="registrationForm" action="#">
+                <label for="email"></label>
+                <input type="text" id="email" name="email" placeholder="请输入手机号" required>
+
+                <label for="password"></label>
+                <input type="password" id="password1" name="password" placeholder="请输入8~16位包含数字和字母的组合" required>
+
+                <div class="code-container">
+                    <input type="text" id="code1" name="code" class="code-input" placeholder="请输入验证码" required>
+                    <button type="button" class="send-code-btn">发送验证码</button>
+                </div>
+
+                <button type="button" class="register-btn">确认并登录</button>
+
+                <div class="additional-links">
+                    <button class="btn" onclick="redis('login')">
+                        返回登录
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
     </div>
@@ -79,5 +135,13 @@
         },
     })
 </script>
+<script>
+    function redis(id){
+        document.getElementById("login").style.display="none";
+        document.getElementById("phone_login").style.display="none";
+        document.getElementById("forget-password").style.display="none";
 
+        document.getElementById(id).style.display="block";
+    }
+</script>
 </html>

@@ -156,3 +156,66 @@ body {
     height: auto;
 }
 
+.additional-links .btn {
+    text-align: center;
+    background:transparent;
+    color: #1990ff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.login-form .code-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.login-form .code-input {
+    width: calc(70% - 5px);
+}
+
+.login-form .send-code-btn {
+    width: calc(30% - 5px);
+    padding: 15px;
+    background-color: #1990ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+.login-form .send-code-btn:hover {
+    background-color: #0c7bcd;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #1990ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.register-btn:hover {
+    background-color: #0c7bcd;
+}
+
+#login {
+    /*display: none;*/
+}
+
+#phone_login {
+    display: none;
+}
+
+#forget-password {
+    display: none;
+}

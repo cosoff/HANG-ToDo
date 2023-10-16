@@ -52,6 +52,7 @@ body {
     cursor: pointer;
     border-radius: 4rem;
     font-size: 22px;
+    font-family: SHS,serif;
     margin: 5rem 3rem 15px;
     background: #485563;
     background: -webkit-linear-gradient(to right, rgb(72, 85, 99), rgb(41, 50, 60));
