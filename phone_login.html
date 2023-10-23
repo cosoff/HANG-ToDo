@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="css/phone_login.css">
 </head>
 <body>
-<div class="main">
-    <div class="box">
+    <div class="logo">HANG.ToDo</div>
+
     <div class="login-container">
         <div class="login-form">
             <div class="welcome-text">手机登录</div>
@@ -35,8 +35,10 @@
             </form>
         </div>
     </div>
+
+    <div class="image-container">
+        <!-- You can optionally add content or remove this div entirely -->
     </div>
-</div>
 
     <script>
         function sendCode() {
@@ -55,23 +57,8 @@
                 code: code
             };
 
-                        // Perform an HTTP POST request
-                        fetch('http://127.0.0.1/registration-endpoint', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(data),
-            })
-            .then(response => response.json())
-            .then(data => {
-                console.log('Success:', data);
-                // Handle the server response as needed
-            })
-            .catch((error) => {
-                console.error('Error:', error);
-                // Handle errors
-            });
+            // Output the data in JSON format
+            console.log(JSON.stringify(data));
         }
     </script>
 </body>

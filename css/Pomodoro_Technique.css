@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'FZSTK';
+    src: url(../svg/FZSTK.TTF) format('truetype');
+}
+/* 添加自定义CSS样式 */
+html,body {
+    height: 100%;
+    width: 100%;
+    background-image: url('../svg/微信图片_20231023171733.jpg'); /* 设置页面背景图片 */
+    background-size: cover; /* 背景图片填充整个页面 */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main_box {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+}
+.box {
+    flex: 0.9; /* 白板占满剩下的区域 */
+    background-color: transparent; /* 设置白板的背景透明 */
+    /* 添加其他样式属性 */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10%;
+}
+.time {
+    font-size: 100px; /* 时间字体大小 */
+    font-family: 'FZSTK',sans-serif;
+}
+.buttons {
+    margin-top: 20px; /* 按钮与时间之间的间距 */
+}
+.button {
+    font-size: 24px; /* 按钮字体大小 */
+    background: transparent; /* 设置按钮背景透明 */
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+.start-button {
+    background-image: url('../svg/开始.svg'); /* 设置开始按钮图标 */
+    background-size: cover;
+}
+.pause-button {
+    background-image: url('../svg/结束.svg'); /* 设置暂停按钮图标 */
+    background-size: cover;
+    display: none;
+}
