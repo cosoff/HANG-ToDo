@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'FZSTK';
-    src: url(../svg/FZSTK.TTF) format('truetype');
+    src: url(../font/FZSTK.TTF) format('truetype');
 }
 /* 添加自定义CSS样式 */
 html,body {
     height: 100%;
     width: 100%;
-    background-image: url('../svg/微信图片_20231023171733.jpg'); /* 设置页面背景图片 */
+    background-image: url('../img/微信图片_20231023171733.jpg'); /* 设置页面背景图片 */
     background-size: cover; /* 背景图片填充整个页面 */
     background-repeat: no-repeat;
     background-attachment: fixed;

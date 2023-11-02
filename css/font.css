@@ -1,9 +1,4 @@
 @font-face {
-    font-family: "Novecento"; //自定义字体名称
-    src: url("../font/Novecento-Wide-Bold-2.otf") format('opentype'); //字体包路径
-}
-
-@font-face {
-    font-family: "SourceHanSans"; //自定义字体名称
-    src: url("../font/SourceHanSansCN-ExtraLight.otf") format('opentype'); //字体包路径
+    font-family: 'Nove';
+    src: url(../font/Novecento-Wide-Medium-2.otf) format('opentype');
 }
