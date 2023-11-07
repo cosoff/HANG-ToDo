@@ -2,3 +2,14 @@
     font-family: 'Nove';
     src: url(../font/Novecento-Wide-Medium-2.otf) format('opentype');
 }
+
+.my-text {
+    font-size: 50px; 
+    /*text-align: center; !* 文本水平居中对齐 *!*/
+    line-height: 1.5;
+    color: #333; 
+    position: absolute; 
+    top: 5%; 
+    left: 29%; 
+    transform: translate(-50%, -50%); 
+}
